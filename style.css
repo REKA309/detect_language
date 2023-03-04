@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: coral; */
+}
+.inner {
+   background-image: linear-gradient(45deg,rgb(235, 191, 17),cornsilk);
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(75deg,rgb(233, 136, 9),rgb(237, 178, 101),rgb(241, 189, 122));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: medium;
+}
+p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-image: linear-gradient(to left,darkmagenta,rgb(188, 30, 175), rgb(238, 65, 94));
+}
